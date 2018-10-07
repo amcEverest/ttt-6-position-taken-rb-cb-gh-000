@@ -1,7 +1,8 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = 0
+
 
 def position_taken(board,index)
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  index = 0
   if index == " " || "" || nil
     return false
   else
