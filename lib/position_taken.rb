@@ -1,7 +1,7 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken(board,index)
-  if board[] == " " || "" || nil
+  if board[] = " " || "" || nil
     false
   else
     true
