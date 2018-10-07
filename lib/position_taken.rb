@@ -1,5 +1,5 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = board[0]
+index = board[]
 
 def position_taken(board,index)
   if index == " " || "" || nil
@@ -7,4 +7,5 @@ def position_taken(board,index)
   elif index == 'X' || 'O'
     return true
   end
+  return board
 end
