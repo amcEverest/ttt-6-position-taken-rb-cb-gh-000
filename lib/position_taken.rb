@@ -7,4 +7,4 @@ def position_taken(board,index)
     true
 end
 
-position_taken(4)
+position_taken()
